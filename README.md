@@ -18,18 +18,21 @@ This project includes:
 
 For a square lattice in the Landau gauge,
 
-```math
-\mathbf{A} = (0, Bx, 0)
+$$
+\mathbf{A} = (0, Bx, 0),
+$$
+
 the tight-binding model reduces to the one-dimensional Harper equation,
 
-\[
--t[\phi_{m+1}+\phi_{m-1}+2\cos(2\pi \alpha m+k_y)\phi_m] = E\phi_m,
-\]
+$$
+-t\left[\phi_{m+1}+\phi_{m-1}+2\cos(2\pi\alpha m+k_y)\phi_m\right]
+= E\phi_m,
+$$
 
 where
 
-\[
+$$
 \alpha = \frac{\Phi}{\Phi_0}
-\]
+$$
 
 is the magnetic flux per plaquette in units of the flux quantum.
